@@ -1,0 +1,19 @@
+# Requirements for the backend of the application
+# Main dependencies
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+requests==2.32.3
+redis==5.0.8
+pydantic==2.8.2
+
+# LangChain and AI
+langchain-core>=0.3.15,<0.4
+langchain-google-genai==2.0.4
+langgraph==0.2.36
+langsmith>=0.1.90
+
+# Logging
+loguru
+
+# Web scraping
+beautifulsoup4

@@ -1,0 +1,81 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.sqlite3
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.bak
+
+# Byte-compiled / cache
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ---- Streamlit ----
+.streamlit/
+.streamlit/secrets.toml
+
+# ---- FastAPI / Backend ----
+/app/backend/__pycache__/
+/app/backend/*.db
+/app/backend/*.sqlite
+/app/backend/cache/
+
+# ---- Environment & Config ----
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ---- Docker ----
+/data/
+docker-compose.override.yml
+*.pid
+
+# ---- Redis / DB dumps ----
+dump.rdb
+*.rdb
+*.sql
+*.db
+
+# ---- Node / Frontend (if Next.js added later) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+
+# ---- VSCode / PyCharm / IDEs ----
+.vscode/
+.idea/
+*.iml
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Test & Coverage ----
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
