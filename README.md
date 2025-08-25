@@ -82,6 +82,8 @@ or
 docker compose up -d
 ```
 
+Then Open : [Frontend](http://localhost:8501/)
+
 View logs:
 
 ```bash
