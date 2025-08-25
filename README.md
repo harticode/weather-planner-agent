@@ -26,11 +26,11 @@ Currently built with **Streamlit (frontend)** and a **FastAPI + LangGraph backen
      * “What’s the weather in Paris?”
      * “Suggest activities for a weekend in New York.”
 
-2. **Backend Processing**
+2. **Backend Processing and Caching**
 
    * Streamlit frontend sends queries + chat history → FastAPI backend.
    * Backend orchestrates AI workflows using **LangGraph + LangChain**.
-   * External APIs + scraping (BeautifulSoup) enrich responses.
+   * External APIs + scraping (BeautifulSoup) enrich responses if not cached.
 
 3. **Response Display**
 
@@ -53,6 +53,9 @@ Currently built with **Streamlit (frontend)** and a **FastAPI + LangGraph backen
 * **Pydantic** – Data validation
 * **BeautifulSoup4** – Web scraping (weather & travel data)
 * **Loguru** – Structured logging
+
+### Caching
+* **Redis**
 
 ---
 
